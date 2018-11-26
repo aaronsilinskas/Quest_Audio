@@ -1,8 +1,9 @@
 {
     "name": "Quest_Audio",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": [
-        "quest", "audio"
+        "quest",
+        "audio"
     ],
     "description": "[EXPERIMENTAL] Quest Game Audio Library.",
     "frameworks": [

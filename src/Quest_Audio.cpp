@@ -1,7 +1,8 @@
 #include "Quest_Audio.h"
 
-void Quest_Audio::begin(uint8_t sdPin) {
-    if (!SD.begin(sdPin))
+void Quest_Audio::begin(uint8_t sdPin)
+{
+  if (!SD.begin(sdPin))
   {
     Serial.println("SD initialization failed!");
     return;
@@ -45,6 +46,7 @@ bool Quest_Audio::playSound(const char *filename, uint8_t volume)
   return true;
 }
 
-bool Quest_Audio::isPlaying() {
-    return AudioOutI2S.isPlaying();
+bool Quest_Audio::isPlaying()
+{
+  return AudioOutI2S.isPlaying();
 }
